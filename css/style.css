@@ -1988,11 +1988,11 @@ textarea.form-input {
 }
 
 .list-marked > li a, .list-marked-primary > li a, .list-marked > li a:active, .list-marked-primary > li a:active, .list-marked > li a:focus, .list-marked-primary > li a:focus {
-	color: #80deea;
+	color: #B29530;
 }
 
 .list-marked > li a:hover, .list-marked-primary > li a:hover {
-	color: #000;
+	color: #B29530;
 }
 
 .list-marked > li + li, .list-marked-primary > li + li {
@@ -2903,7 +2903,7 @@ a.thumbnail-classic-title:hover {
 	flex-direction: column;
 	justify-content: center;
 	padding: 15px;
-	background-color: rgba(128, 222, 234, 0.6);
+	background-color: rgba(178, 149, 48, 0.6);
 	transition: 250ms ease-in-out;
 }
 
@@ -5473,7 +5473,7 @@ a.thumbnail-classic-title:hover {
 }
 
 .context-dark a.icon-gray-darker:hover, .bg-accent a.icon-gray-darker:hover, .bg-gray-dark a.icon-gray-darker:hover, .bg-black a.icon-gray-darker:hover, .bg-gray-darker a.icon-gray-darker:hover, .bg-gray-darkest a.icon-gray-darker:hover, .bg-image-4 a.icon-gray-darker:hover, .bg-image-6 a.icon-gray-darker:hover, .bg-image-7 a.icon-gray-darker:hover, .bg-image-8 a.icon-gray-darker:hover {
-	color: #80deea;
+	color: #B29530;
 }
 
 .context-dark .button-link:hover, .bg-accent .button-link:hover, .bg-gray-dark .button-link:hover, .bg-black .button-link:hover, .bg-gray-darker .button-link:hover, .bg-gray-darkest .button-link:hover, .bg-image-4 .button-link:hover, .bg-image-6 .button-link:hover, .bg-image-7 .button-link:hover, .bg-image-8 .button-link:hover {
@@ -7755,7 +7755,7 @@ html:not(.lt-ie10) .not-animated {
 		background-color: transparent;
 	}
 	.isotope-filters-responsive .isotope-filters .inline-list a.active, .isotope-filters-responsive .isotope-filters .inline-list a:hover {
-		color: #80deea;
+		color: #B29530;
 		background-color: rgba(128, 222, 234, 0.1);
 	}
 	.isotope-filters-responsive .isotope-filters li {
@@ -10956,7 +10956,7 @@ html .page .rd-navbar-fixed .rd-navbar-fixed--hidden {
 
 .rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-fixed .rd-navbar-nav li.focus > a, .rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-fixed .rd-navbar-nav li.opened > a {
 	color: #fff;
-	background: #80deea;
+	background: #B29530;
 }
 
 .rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-navbar-nav li.focus > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle {
