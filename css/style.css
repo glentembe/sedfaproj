@@ -22,6 +22,22 @@ blockquote {
 	margin: 0;
 }
 
+.cRFULU {
+    position: relative;
+    max-width: 938px;
+    min-width: 280px;
+    width: 100%;
+    display: grid
+;
+    grid-template-columns: 240px auto;
+    gap: 20px;
+    padding: 20px;
+    backdrop-filter: blur(40px) saturate(120%) brightness(120%);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+}
+
 input,
 button,
 select,
@@ -1988,7 +2004,7 @@ textarea.form-input {
 }
 
 .list-marked > li a, .list-marked-primary > li a, .list-marked > li a:active, .list-marked-primary > li a:active, .list-marked > li a:focus, .list-marked-primary > li a:focus {
-	color: #B29530;
+	color: #000;
 }
 
 .list-marked > li a:hover, .list-marked-primary > li a:hover {
