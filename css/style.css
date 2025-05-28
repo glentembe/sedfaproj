@@ -347,6 +347,18 @@ h6,
 	will-change: transform, opacity;
 }
 
+.heading-decorated2 {
+	content: '';
+	position: relative;
+	display: block;
+	height: 1px;
+	width: 100%;
+	margin-top: 15px;
+	background: #B29530;
+	will-change: transform, opacity;
+	
+}
+
 .heading-decorated_center::after,
 .parallax-header .heading-decorated::after,
 .text-center .heading-decorated::after {
@@ -410,6 +422,12 @@ code,
 	color: #fff;
 	background: #000;
 }
+
+/*Dropdown
+ * 
+ */
+
+/*end dropdown/
 
 /*
 *
