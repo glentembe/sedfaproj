@@ -317,7 +317,7 @@ h6,
 .heading-6 {
 	font-size: 14px;
 	line-height: 1.6;
-	color: #41516A;
+	color: #000;
 }
 
 @media (min-width: 768px) {
