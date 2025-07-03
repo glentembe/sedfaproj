@@ -1277,6 +1277,36 @@ html .wrapper {
 	max-width: 100%;
 }
 
+
+/* Style the image */
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Style the overlay-text */
+.overlay-text 
+{
+  position: absolute;
+  top: 50%; /* Adjust this value to vertically center the text */
+  left: 50%; /* Adjust this value to horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  /*background-color: #000000; Set the background color with some transparency */
+	background-color: rgba(178, 149, 48, 0.9);	
+  color: #fff; /* Set the text color */
+  padding: 10px 20px; /* Add some padding to the text */
+  font-size: 15px;
+	font-weight: 550;/*Adjust the font size */
+	
+}
+/*   text-align: center; /* Center the text horizontally */ */
+
+
+
+
 /*
 *
 * Form styles
@@ -2986,7 +3016,7 @@ a.thumbnail-classic-title:hover {
 	flex-direction: column;
 	justify-content: center;
 	padding: 15px;
-	background-color: rgba(178, 149, 48, 0.6);
+	background-color: #B29530;
 	transition: 250ms ease-in-out;
 }
 
