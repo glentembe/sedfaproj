@@ -423,13 +423,36 @@ code,
 	background: #000;
 }
 
-/*Dropdown
- * 
- */
+/* Pagination */
 
-/*end dropdown/
- * 
- * 
+.pagination {
+    text-align: center;
+    margin-top: 2rem;
+	justify-content: right;
+	
+}
+
+.pagination a {
+    color: #B29530;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #B29530;
+    margin: 0 5px;
+    border-radius: 4px;	
+}
+
+.pagination a:hover {
+    background-color: #B29530;
+    color: white;
+}
+
+.pagination .active {
+    background-color: #B29530;
+    color: white;
+}
+
+
+/* End Pagination */
 
 /* Dropdown Button */
 .btn {
@@ -1768,7 +1791,7 @@ textarea.form-input {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+ 
 .table-custom {
 	box-sizing: border-box;
 	width: 100%;
@@ -18800,6 +18823,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	color: #000;
 	background: transparent;
 	transition: .3s all ease;
+	text-align: center;
 }
 
 .card-custom .card-custom-title > a:before {
