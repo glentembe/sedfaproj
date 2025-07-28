@@ -22,6 +22,22 @@ blockquote {
 	margin: 0;
 }
 
+.cRFULU {
+    position: relative;
+    max-width: 938px;
+    min-width: 280px;
+    width: 100%;
+    display: grid
+;
+    grid-template-columns: 240px auto;
+    gap: 20px;
+    padding: 20px;
+    backdrop-filter: blur(40px) saturate(120%) brightness(120%);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+}
+
 input,
 button,
 select,
@@ -301,7 +317,7 @@ h6,
 .heading-6 {
 	font-size: 14px;
 	line-height: 1.6;
-	color: #41516A;
+	color: #000;
 }
 
 @media (min-width: 768px) {
@@ -329,6 +345,18 @@ h6,
 	margin-top: 15px;
 	background: #B29530;
 	will-change: transform, opacity;
+}
+
+.heading-decorated2 {
+	content: '';
+	position: relative;
+	display: block;
+	height: 1px;
+	width: 100%;
+	margin-top: 15px;
+	background: #B29530;
+	will-change: transform, opacity;
+	
 }
 
 .heading-decorated_center::after,
@@ -395,8 +423,86 @@ code,
 	background: #000;
 }
 
+/* Pagination */
+
+.pagination {
+    text-align: center;
+    margin-top: 2rem;
+	justify-content: right;
+	
+}
+
+.pagination a {
+    color: #B29530;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #B29530;
+    margin: 0 5px;
+    border-radius: 4px;	
+}
+
+.pagination a:hover {
+    background-color: #B29530;
+    color: white;
+}
+
+.pagination .active {
+    background-color: #B29530;
+    color: white;
+}
+
+
+/* End Pagination */
+
+/* Dropdown Button */
+.btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.btn:hover, .dropdown:hover .btn  {
+  background-color: #0b7dda;
+}
+
 /*
 *
+
 * Colors
 * ==================================================
 */
@@ -1194,6 +1300,36 @@ html .wrapper {
 	max-width: 100%;
 }
 
+
+/* Style the image */
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Style the overlay-text */
+.overlay-text 
+{
+  position: absolute;
+  top: 50%; /* Adjust this value to vertically center the text */
+  left: 50%; /* Adjust this value to horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text precisely */
+  /*background-color: #000000; Set the background color with some transparency */
+	background-color: rgba(178, 149, 48, 0.9);	
+  color: #fff; /* Set the text color */
+  padding: 10px 20px; /* Add some padding to the text */
+  font-size: 15px;
+	font-weight: 550;/*Adjust the font size */
+	
+}
+/*   text-align: center; /* Center the text horizontally */ */
+
+
+
+
 /*
 *
 * Form styles
@@ -1655,7 +1791,7 @@ textarea.form-input {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+ 
 .table-custom {
 	box-sizing: border-box;
 	width: 100%;
@@ -1988,7 +2124,7 @@ textarea.form-input {
 }
 
 .list-marked > li a, .list-marked-primary > li a, .list-marked > li a:active, .list-marked-primary > li a:active, .list-marked > li a:focus, .list-marked-primary > li a:focus {
-	color: #B29530;
+	color: #000;
 }
 
 .list-marked > li a:hover, .list-marked-primary > li a:hover {
@@ -2903,7 +3039,7 @@ a.thumbnail-classic-title:hover {
 	flex-direction: column;
 	justify-content: center;
 	padding: 15px;
-	background-color: rgba(178, 149, 48, 0.6);
+	background-color: #B29530;
 	transition: 250ms ease-in-out;
 }
 
@@ -18687,6 +18823,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 	color: #000;
 	background: transparent;
 	transition: .3s all ease;
+	text-align: center;
 }
 
 .card-custom .card-custom-title > a:before {
