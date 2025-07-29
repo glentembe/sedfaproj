@@ -359,6 +359,19 @@ h6,
 	
 }
 
+.heading-decorated3 {
+	content: '';
+	position: relative;
+	display: block;
+	height: 1px;
+	width: 100%;
+	margin-top: 15px;
+	background: #B29530;
+	will-change: transform, opacity;
+	text-align: center;
+	
+}
+
 .heading-decorated_center::after,
 .parallax-header .heading-decorated::after,
 .text-center .heading-decorated::after {
